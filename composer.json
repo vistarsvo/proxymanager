@@ -1,8 +1,8 @@
 {
-    "name": "vistarsvo/sitegrub",
-    "description": "Yii2 Web sites parser module",
-    "keywords": ["yii", "yii2", "parser", "grubber", "site", "web"],
-    "type": "yii2-extension",
+    "name": "vistarsvo/proxymanager",
+    "description": "Yii2 proxymanager",
+    "keywords": ["yii", "yii2", "proxy"],
+    "type": "yii2-module",
     "license": "MIT",
     "authors": [
         {
@@ -11,15 +11,13 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*",
-        "yiisoft/yii2-authclient": "*",
+        "yiisoft/yii2": "2.*",
         "dmstr/yii2-adminlte-asset": "2.*",
-        "amnah/yii2-user": "5.*",
         "symfony/dom-crawler": "2.8",
         "symfony/css-selector": "2.8",
         "zhuravljov/yii2-queue": "^1.0"
     },
     "autoload": {
-        "psr-4": { "vistarsvo\\sitegrub\\": "" }
+        "psr-4": { "vistarsvo\\proxymanagr\\": "" }
     }
 }
